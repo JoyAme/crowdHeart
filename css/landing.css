@@ -1,0 +1,61 @@
+:root {
+    --footer-bg: #001dc0;
+    --footer-btn: rgba(244, 170, 11, 1);
+    --cards: rgba(255, 255, 255, 0.75);
+  }
+
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Hero Section */
+
+.main-hero {
+    background-image: url(../images/people.svg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 499px;
+}
+
+.hero-div {
+    width: 430px;
+    height: 290px;
+    position: absolute;
+    top: 150px;
+    left: 182px;
+    bottom: 0;
+    background-color: var(--cards);
+    border-radius: 12px;
+    box-shadow: 0px 11px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero-div h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 31px;
+    margin: 15px 27px 12px 27px ;
+}
+
+.hero-div p{
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 27px 12px 27px 
+}
+
+.hero-div a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--footer-btn);
+    padding: 10px;
+    border-radius: 8px;
+    width: 70px;
+    margin: 10px 0 20px 330px;
+}
+
+.hero-div a:hover{
+    background-color: var(--footer-bg);
+    color: var(--footer-btn);
+}
