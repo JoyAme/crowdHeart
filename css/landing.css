@@ -10,7 +10,11 @@
     box-sizing: border-box;
 }
 
-/* Hero Section */
+body{
+    background-color: #f0f0f0;
+}
+
+/* ======Hero Section====== */
 
 .main-hero {
     background-image: url(../images/people.svg);
@@ -60,7 +64,7 @@
     color: var(--footer-btn);
 }
 
-/* impact section */
+/* =======impact section====== */
 
 .impact h2{
     font-family: 'Montserrat', sans-serif;
@@ -111,7 +115,7 @@
     color: var(--footer-bg);
 }
 
-/* Our Features section */
+/* ======Our Features section======= */
 
 .our-features{
     margin: 100px 0;
@@ -179,3 +183,70 @@
 .feature-div:last-child{
     margin-right: 40px;
 }
+
+/* =====Testimonial section===== */
+
+.testimonial{
+    margin-bottom: 80px;
+}
+
+.testimonial h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.5;
+    margin: 0 500px;
+    margin-bottom: 20px;
+}
+
+.testimonial > p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5;
+    margin: 0 270px;
+    margin-bottom: 50px;
+}
+
+.testimonial-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.testimonial-container-div{
+    background-color: rgba(255, 255, 255, 1);
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 449px;
+    box-shadow: 0px 9px 12px 1px rgba(0, 0, 0, 0.14);
+    border-radius: 12px;
+}
+
+.testimonial-container-div:first-child{
+    margin-right: 70px;
+}
+
+.testimonial-container-div img{
+    margin: 30px 0 14px 0;
+
+}
+
+.testimonial-container-div p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5;
+    margin: 0 50px 15px 50px;
+}
+
+.testimonial-container-div h5 + p{
+    margin-bottom: 40px;
+}
+
+
+/* ======Volunteer section====== */
