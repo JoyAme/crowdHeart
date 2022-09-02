@@ -15,11 +15,13 @@
     <!-- ======Hero section====== -->
 
     <Section class="main-hero">
-        <div class="hero-div">
-            <h1>Our Hearts together... as one</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ultrices nullam luctus tellus ut imperdiet tristique. Vulputate nascetur vulputate sed sed elementum. Urna, commodo, lobortis elementum 
-            </p>
-                <a href="donation.html">Donate</a>
+        <div class="hero-overlay">
+            <div class="hero-div">
+                <h1>Our Hearts together... as one</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ultrices nullam luctus tellus ut imperdiet tristique. Vulputate nascetur vulputate sed sed elementum. Urna, commodo, lobortis elementum 
+                </p>
+                    <a href="donation.html">Donate</a>
+            </div>
         </div>
     </Section>
 
@@ -92,8 +94,33 @@
 
     <!-- ======Volunteer section======= -->
 
-    <section class="">
+    <section class="Volunteer">
+        <div class="Volunteer-container">
+            <div class="Volunteer-D-child"><img src="images/together.png" alt="Volunteers"></div>
+            <form class="Volunteer-D-child" id="form"  action="">
+                    <h2>Become A Volunteer</h2>
+                <div class="double">
+                    <div class="constant" id="fff">
+                        <label for="fname">First name</label>
+                        <input type="text" id="fName">
+                        <small>error message</small>
+                    </div>
+                    <div class="constant" id="ggg">
+                        <label for="lname">Last name</label>
+                        <input type="text" id="lName">
+                        <small>error message</small>
+                    </div>
+                </div>
+                <div class="constant">
+                    <label for="email">Email  Address</label>
+                    <input type="email" id="email">
+                    <small>error message</small>
+                </div>  
+                <input type="submit" class="btn" value="Volunteer"> 
+            </form>
+        </div>
 
     </section>
 </body>
+<script src="js/landing.js"></script>
 </html>

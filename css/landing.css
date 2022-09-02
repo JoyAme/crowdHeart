@@ -17,19 +17,25 @@ body{
 /* ======Hero Section====== */
 
 .main-hero {
-    background-image: url(../images/people.svg);
+    background-image: url(../images/people.jpg);
     background-size: cover;
     background-position: center top;
+    background-color: rgba(0, 29, 192, 0.2);
     background-repeat: no-repeat;
     height: 499px;
 }
 
+.hero-overlay{
+    height: 499px;
+    background-color: rgba(0, 29, 192, 0.2);
+}
+
 .hero-div {
-    width: 430px;
+    width: 449px;
     height: 290px;
     position: absolute;
-    top: 150px;
-    left: 182px;
+    top: 80px;
+    left: 172px;
     bottom: 0;
     background-color: var(--cards);
     border-radius: 12px;
@@ -39,24 +45,26 @@ body{
 .hero-div h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 31px;
-    margin: 15px 27px 12px 27px ;
+    margin: 15px 40px 12px 40px ;
 }
 
 .hero-div p{
     font-family: 'Open Sans', sans-serif;
-    margin: 15px 27px 12px 27px 
+    margin: 18px 27px 12px 27px 
 }
 
 .hero-div a{
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
+    text-align: center;
     text-decoration: none;
     color: white;
     background-color: var(--footer-btn);
     padding: 10px;
     border-radius: 8px;
-    width: 70px;
-    margin: 10px 0 20px 330px;
+    width: 100px;
+    float: right;
+    margin: 10px 30px 0 0;
 }
 
 .hero-div a:hover{
@@ -154,6 +162,12 @@ body{
     background-color: rgba(255, 255, 255, 0.75);
     box-shadow: 0px 9px 12px 1px rgba(0, 0, 0, 0.14);
     border-radius: 12px;
+    transition: all 1s;
+}
+
+.feature-div:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .feature-div img{
@@ -225,6 +239,12 @@ body{
     width: 449px;
     box-shadow: 0px 9px 12px 1px rgba(0, 0, 0, 0.14);
     border-radius: 12px;
+    transition: all 1s;
+}
+
+.testimonial-container-div:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .testimonial-container-div:first-child{
@@ -250,3 +270,111 @@ body{
 
 
 /* ======Volunteer section====== */
+
+.Volunteer{
+    background-color: rgba(244, 170, 11, 1);
+    height: 376px;
+}
+
+.Volunteer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Volunteer-D-child{
+    margin: 60px 0 0 0;
+}
+
+.Volunteer-D-child img{
+    width: 360px;
+    height: 278px;
+}
+.Volunteer-D-child h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5;
+    margin-bottom: 25px;
+}
+
+.Volunteer-D-child:first-child{
+    margin-right: 20px;
+}
+
+form {
+    width: 370px;
+}
+.double {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.double #fff{
+    margin-right: 10px;
+}
+
+.double #ggg{
+    margin-left: 10px;
+}
+
+.constant {
+    margin-bottom: 8px;
+    padding-bottom: 15px;
+    position: relative;
+} 
+
+ .constant label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(19, 21, 21, 1);
+}
+
+.constant input {
+    background-color: rgba(244, 170, 11, 1);
+    border: 1px solid rgba(140, 142, 142, 1);
+    border-radius: 5px;
+    display: block;
+    padding: 8px;
+    width: 100%;
+    outline: none;
+}
+
+.constant.success input {
+    border-color: #2ecc71;
+}
+
+.error input {
+    border-color: #e74e3c;
+}
+
+
+.constant small{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+} 
+
+.constant.error small {
+    color: #e74e3c;
+    visibility: visible;
+    font-family: inherit;
+    font-size: 10px;
+}
+
+form .btn {
+    background-color: rgba(11, 85, 244, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 10px 0 25px  0;
+} 
